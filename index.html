@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Mondrian Project two</title>
+
+    <style>
+         /* Write your CSS here 
+    Gap Colour: #000
+    White:
+    Red: #E72F24
+    Black: #232629
+    Blue:
+    Yellow: #F9D01E */
+
+        body 
+        {
+            margin-top : 0; 
+            margin-bottom: 0;
+        }
+        .container
+        {
+            width : 40vw;
+            height : 100vh;
+            background-color: black;
+            margin : auto;
+            display : grid;
+            grid-template-columns : 16fr 40fr 98fr 40fr 70fr 20fr 26fr ; 
+            grid-template-rows : 24fr 25fr 26fr 40fr 54fr 28fr 40fr 24fr 44fr 22fr 28fr 52fr 28fr;
+            gap : 6px;
+            border : 5px solid black;
+        }
+
+
+
+        .yellow1
+        {
+            background-color: #F9D01E;
+            grid-column : span 3;
+        }
+        .black2
+        {
+            background-color: #232629;
+            grid-row : span 2;
+        }
+        .white3
+        {
+            background-color:#F0F1EC ;
+            grid-row : span 2;
+        }
+        .white4 
+        {
+            background-color:  #F0F1EC;
+            grid-column : span 2;
+            grid-row : span 4;
+        }
+        .white5
+        {
+            background-color: #F0F1EC;
+            grid-column : span 3;
+        }
+        .white6
+        {
+            background-color: #F0F1EC;
+            grid-row : span 5;
+        }
+        .yellow7
+        {
+            background-color: #F9D01E ;
+        }
+        .white8
+        {
+            background-color:#F0F1EC ;
+            grid-area : 3/4/4/5; 
+            
+        }
+        .blue9
+        {
+            background-color:#004592 ;
+            grid-area : 3/2/6/3;
+        }
+        .red10
+        {
+            background-color: #E72F24;
+            grid-area : 3/3/4/4;
+        }
+        .red11
+        {
+            background-color: #E72F24;
+            grid-row : span 2;
+        }
+        .white12
+        {
+            background-color: #F0F1EC;
+            grid-row : span 2;
+        }
+        .blue13
+        {
+            background-color:  #004592;
+        }
+        .white14
+        {
+            background-color:#F0F1EC ;
+            grid-area :6/2/8/3;
+        }
+        .yellow15
+        {
+            background-color: #F9D01E ;
+            grid-area:6/3/8/4;
+        }
+        .blue16
+        {
+            background-color: #004592 ;
+            grid-area : 6/4/8/5;
+        }
+        .white17
+        {
+            background-color: #F0F1EC;
+            grid-area : 5/5/7/6;
+        }
+        .black18
+        {
+            background-color: #232629 ;
+            grid-area:5/6/9/8;
+        }
+        .white19
+        {
+            background-color: #F0F1EC;
+            grid-area : 8/1/13/2;
+        }
+        .blue20
+        {
+            background-color:#004592  ;
+            grid-area :8/2/13/3; 
+        }
+        .white21
+        {
+            background-color:#F0F1EC ;
+            grid-area : 8/3/9/4;
+        }
+        .red22
+        {
+            background-color: #E72F24;
+            grid-area : 8/4/10/5;
+        }
+        .white23
+        {
+            
+            background-color: #F0F1EC;
+            grid-area : 7/5/10/6;
+        }
+        .red24
+        {
+            background-color:#E72F24 ;
+            grid-column : span 2;
+        }
+        .white25
+        {
+            background-color:#F0F1EC ;
+            grid-area : 9/3/11/4;
+        }
+        .yellow26
+        {
+            background-color:  #F9D01E;
+            grid-area : 10/4/11/5;
+        }
+        .yellow27
+        {
+            background-color: #F9D01E ;
+            grid-area : 10/5/11/8;
+        }
+        .black28
+        {
+            background-color: #232629 ;
+            grid-column : span 4;
+        }
+        .white29
+        {
+            background-color:#F0F1EC ;
+            grid-row : span 3;
+        }
+        .white30
+        {
+            background-color:#F0F1EC ;
+            grid-area:12/3/13/5;
+        }
+        .red31
+        {
+            background-color:#E72F24 ;
+            grid-area:12/5/13/7;
+        }
+        .white32
+        {
+            background-color:#F0F1EC ;
+            grid-area : 13/1/14/3;
+        }
+        .black33
+        {
+            background-color:  #232629;
+            grid-column : span 2;
+        }
+        .white34
+        {
+            background-color:#F0F1EC ;
+            grid-column : span 2;
+        }
+    </style>
+</head>
+<body        >
+    <div class="container">
+        <!-- 34 divs -->
+        <div class="yellow1">1</div>
+        <div class="black2">2</div>
+        <div class="white3">3</div>
+        <div class="white4">4</div>
+        <div class="white5">5</div>
+        <div class="white6">6</div>
+        <div class="yellow7">7</div>
+        <div class="white8">8</div>
+        <div class="blue9">9</div>
+        <div class="red10">10</div>
+        <div class="red11">11</div>
+        <div class="white12">12</div>
+        <div class="blue13">13</div>
+        <div class="white14">14</div>
+        <div class="yellow15">15</div>
+        <div class="blue16">16</div>
+        <div class="white17">17</div>
+        <div class="black18">18</div>
+        <div class="white19">19</div>
+        <div class="blue20">20</div>
+        <div class="white21">21</div>
+        <div class="red22">22</div>
+        <div class="white23">23</div>
+        <div class="red24">24</div>
+        <div class="white25">25</div>
+        <div class="yellow26">26</div>
+        <div class="yellow27">27</div>
+        <div class="black28">28</div>
+        <div class="white29">29</div>
+        <div class="white30">30</div>
+        <div class="red31">31</div>
+        <div class="white32">32</div>
+        <div class="black33">33</div>
+        <div class="white34">34</div>
+
+    </div>
+</body>
+</html>
